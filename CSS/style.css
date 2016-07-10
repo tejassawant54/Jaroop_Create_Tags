@@ -1,0 +1,91 @@
+.container {
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    background: #f6f6f6;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 300px;
+    height: 220px;
+}
+
+#positive {
+    border: 1px solid #dedede;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 300px;
+    height: 250px;
+}
+
+#lbPos {
+	position: absolute;
+    top: 170px;
+    left: 400px;
+}
+
+#negative {
+    border: 1px solid #dedede;
+    position: absolute;
+    top: 200px;
+    left: 780px;
+    width: 300px;
+    height: 250px;
+}
+
+#lbNeg {
+	position: absolute;
+    top: 170px;
+    left: 780px;
+}
+
+#termValue {
+    position: relative;
+    top: 10px;
+}
+
+#termType {
+	position: relative;
+    top: 10px;
+}
+
+#addTerm {
+	position: relative;
+    top: 30px;
+}
+
+.errorMessages {
+    position: relative;
+    top: 100px;
+    left: 30px;
+    width: 300px;
+    display: none;
+    margin: 0 10px 15px 10px;
+    padding: 8px 35px 8px 30px;
+    color: #B94A48;
+    background-color: #F2DEDE;
+    border: 2px solid #EED3D7;
+    border-radius: 4px;
+}
+.errorMessages span {
+    font-weight: bold;
+}
+
+/* Override CSS for tagit */
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{
+    
+    color: white;
+}
+
+.ui-widget-content{
+    border: white;
+}
+
+ul.tagit input[type="text"] {
+    display: none;
+}
+
+ul.tagit li{
+    clear: left;
+}
